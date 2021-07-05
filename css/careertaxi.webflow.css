@@ -123,6 +123,11 @@ body {
   padding-left: 30px;
 }
 
+.container.header-cont {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 .navbar {
   background-color: #1e1e1e;
 }

@@ -5,27 +5,31 @@ module.exports = {
   async rewrites() {
     return [
       {
-        source: '/',
-        destination: '/index.html',
+        source: "/",
+        destination: "/index.html",
       },
       // Blog
       {
-        source: '/blog',
+        source: "/blog",
         destination: `${BLOG_URL}/blog`,
       },
       {
-        source: '/blog/:path*',
+        source: "/blog/:path*",
         destination: `${BLOG_URL}/blog/:path*`,
       },
       // Tests
       {
-        source: '/tests',
+        source: "/tests",
         destination: `${TESTS_URL}/tests`,
       },
       {
-        source: '/tests/:path*',
+        source: "/tests/:path*",
         destination: `${TESTS_URL}/tests/:path*`,
       },
-    ]
+      {
+        source: "/api/:path*",
+        destination: "/tests/api/:path*",
+      },
+    ];
   },
-}
+};

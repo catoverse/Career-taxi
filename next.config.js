@@ -28,7 +28,7 @@ module.exports = {
       },
       {
         source: "/api/:path*",
-        destination: "/tests/api/:path*",
+        destination: `${TESTS_URL}/tests/api/:path*`,
       },
     ];
   },

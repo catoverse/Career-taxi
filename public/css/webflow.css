@@ -1816,10 +1816,18 @@ textarea.w-select {
   justify-content: space-between;
 }
 
-.iframe-container iframe {
-  max-width: 560px;
+.iframe-container div {
   width: 100%;
   margin: 0 1em;
+}
+
+.iframe-container div h1 {
+  margin-bottom: 1em;
+}
+
+.iframe-container div iframe {
+  max-width: 560px;
+  width: 100%;
 }
 
 @media screen and (max-width: 786px) {
@@ -1828,7 +1836,12 @@ textarea.w-select {
     align-items: center;
   }
 
-  .iframe-container iframe {
+  .iframe-container div {
     margin: 1em 0;
+    max-width: 40em;
+  }
+
+  .iframe-container div h1 {
+    margin: 0 0 .5em 0;
   }
 }

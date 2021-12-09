@@ -1810,3 +1810,25 @@ textarea.w-select {
 .w-condition-invisible {
   display: none !important;
 }
+
+.iframe-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.iframe-container iframe {
+  max-width: 560px;
+  width: 100%;
+  margin: 0 1em;
+}
+
+@media screen and (max-width: 786px) {
+  .iframe-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .iframe-container iframe {
+    margin: 1em 0;
+  }
+}

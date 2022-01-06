@@ -1856,3 +1856,15 @@ textarea.w-select {
   font-size: 1em;
   font-weight: 400;
 }
+
+#footer div a {
+  margin: 1.5em 1em 0;
+  justify-content: center;
+}
+
+@media screen and (max-width: 786px) {
+  #footer div a {
+    margin: 1em 1em 0;
+    justify-content: center;
+  }
+}

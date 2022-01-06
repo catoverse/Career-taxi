@@ -1857,13 +1857,13 @@ textarea.w-select {
   font-weight: 400;
 }
 
-#footer div a {
+.footer div a {
   margin: 1.5em 1em 0;
   justify-content: center;
 }
 
 @media screen and (max-width: 991px) {
-  #footer div a {
+  .footer div a {
     margin: 1em 1em 0;
     justify-content: center;
   }

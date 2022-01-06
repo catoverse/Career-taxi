@@ -1862,7 +1862,7 @@ textarea.w-select {
   justify-content: center;
 }
 
-@media screen and (max-width: 786px) {
+@media screen and (max-width: 991px) {
   #footer div a {
     margin: 1em 1em 0;
     justify-content: center;

@@ -1868,3 +1868,21 @@ textarea.w-select {
     justify-content: center;
   }
 }
+
+.w-container .w-row {
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.columns {
+  max-width: 600px;
+  margin-top: 20px;
+  display: flex;
+  margin: 0 auto;
+  padding-top: 1em;
+}
+
+.legal-link {
+  color: #fff;
+  text-decoration: none;
+}
